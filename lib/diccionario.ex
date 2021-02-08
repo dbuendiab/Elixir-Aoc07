@@ -28,7 +28,7 @@ defmodule Diccionario do
   def load(ruta_fichero) do
     acc = %{}
     File.read!(ruta_fichero)
-    |> String.split("\r\n", trim: true)
+    |> String.split("\n", trim: true)
     |> Enum.map(&(def_maleta(&1)))
     |> Enum.reduce(acc, fn x, acc -> Map.merge(acc, x) end)
   end

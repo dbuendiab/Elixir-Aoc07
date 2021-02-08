@@ -1,0 +1,2 @@
+language = "undefined"
+run = "mix run && elixir lib/aoc07.exs"

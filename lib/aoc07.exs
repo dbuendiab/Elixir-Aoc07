@@ -5,7 +5,7 @@ defmodule Aoc07 do
   y calcular cuántas maletas en total hay dentro de un tipo de maleta dado.
   En primer lugar debemos leer los datos en un diccionario: %{maleta => [nodo de maletas anidadas,...]}.
   """
-  def cargar_diccionario(ruta \\ "lib\\aoc.txt"), do: Diccionario.load(ruta)
+  def cargar_diccionario(ruta \\ "lib/aoc.txt"), do: Diccionario.load(ruta)
 
   def maletas_dentro_de(diccionario, color), do: cuantas_maletas(diccionario, color, 0)
 

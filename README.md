@@ -13,3 +13,5 @@ elixir lib\aoc07.exs "dull olive"
 
 Más información en [Google Docs](https://docs.google.com/document/d/1T7mKt6rq50BFd3wv9JObPHIZHC45gezOutSIASKbxhA/edit#)
 
+## TODO
+* Cambiar ruta y separador de líneas para que los detecte según el SO.
