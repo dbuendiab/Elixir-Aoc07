@@ -24,3 +24,6 @@ aoc07-*.tar
 
 # Temporary files for e.g. tests
 /tmp
+
+# El directorio .elixir_ls guarda un build (aunque no sé con qué propósito
+/.elixir_ls/

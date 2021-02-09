@@ -6,7 +6,7 @@ defmodule Aoc07.MixProject do
       app: :aoc07,
       version: "0.1.0",
       elixir: "~> 1.11",
-      elixirc_paths: elixirc_paths(Mix.env),
+      elixirc_paths: elixirc_paths(Mix.env()),
       start_permanent: Mix.env() == :prod,
       deps: deps()
     ]
@@ -28,5 +28,5 @@ defmodule Aoc07.MixProject do
   end
 
   defp elixirc_paths(:test), do: ["lib", "test"]
-  defp elixirc_paths(_), do: ["lib"]
+  defp elixirc_paths(_), do: ["lib", "lib/util"]
 end
